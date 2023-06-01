@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    margin: 20px auto;
+}
+
+.btn-container {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    padding: 8px 15px;
+}
